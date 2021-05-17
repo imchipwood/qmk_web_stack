@@ -4,8 +4,8 @@
 	branch = rq_fix
 [submodule "qmk_api"]
 	path = qmk_api
-	url = https://github.com/qmk/qmk_api.git
-	branch = .
+	url = https://github.com/imchipwood/qmk_api.git
+	branch = imchipwood
 [submodule "qmk_configurator"]
 	path = qmk_configurator
 	url = https://github.com/qmk/qmk_configurator.git
