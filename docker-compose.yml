@@ -10,6 +10,8 @@ services:
       API_URL: http://qmk_api:5001/
       #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
       #QMK_GIT_BRANCH: master
+      QMK_GIT_URL: https://github.com/imchipwood/qmk_firmware.git
+      QMK_GIT_BRANCH: imchipwood_userkey
       FLASK_GRAPHITE_HOST: qmk_metrics_aggregator
       REDIS_HOST: redis
       RELOAD: 1
@@ -67,6 +69,8 @@ services:
       LOG_LEVEL: DEBUG
       #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
       #QMK_GIT_BRANCH: master
+      QMK_GIT_URL: https://github.com/imchipwood/qmk_firmware.git
+      QMK_GIT_BRANCH: imchipwood_userkey
       REDIS_HOST: redis
       RELOAD: 1
       S3_HOST: http://minio:9000
